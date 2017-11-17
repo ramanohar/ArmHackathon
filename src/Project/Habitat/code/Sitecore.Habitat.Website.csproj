@@ -171,6 +171,7 @@
     <None Include="Properties\PublishProfiles\Habitat.pubxml" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Website\Layouts\Default.cshtml" />
+    <Content Include="Views\Website\Layouts\Default_original.cshtml" />
     <None Include="web.config" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
@@ -251,4 +252,3 @@
   <Target Name="AfterBuild">
   </Target> -->
 </Project>
-

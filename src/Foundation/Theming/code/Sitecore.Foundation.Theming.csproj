@@ -63,6 +63,13 @@
     <Content Include="scripts\Sitecore.Foundation.Frameworks.min.js">
       <DependentUpon>Sitecore.Foundation.Frameworks.js</DependentUpon>
     </Content>
+    <Content Include="styles\css\font-awesome.css" />
+    <Content Include="styles\css\fontface.css" />
+    <Content Include="styles\css\fonts\fontawesome-webfont.svg" />
+    <Content Include="styles\css\fonts\ikanosans-bold-webfont.svg" />
+    <Content Include="styles\css\fonts\ikanosans-light-webfont.svg" />
+    <Content Include="styles\css\img\banner.jpg" />
+    <Content Include="styles\css\index.css" />
     <Content Include="styles\default.css" />
     <Content Include="styles\default.min.css">
       <DependentUpon>default.css</DependentUpon>
@@ -71,6 +78,10 @@
     <Content Include="styles\editor.min.css">
       <DependentUpon>editor.css</DependentUpon>
     </Content>
+    <Content Include="styles\img\arm-logo-blue.svg" />
+    <Content Include="styles\img\arm-logo.svg" />
+    <Content Include="styles\js\common.js" />
+    <Content Include="styles\js\jquery-1.12.4.min.js" />
     <Content Include="styles\vendor.css" />
     <Content Include="styles\vendor.min.css">
       <DependentUpon>vendor.css</DependentUpon>
@@ -162,6 +173,19 @@
     <Content Include="scripts\Sitecore.Foundation.Frameworks.min.js.map">
       <DependentUpon>Sitecore.Foundation.Frameworks.min.js</DependentUpon>
     </Content>
+    <Content Include="styles\css\fonts\fontawesome-webfont.eot" />
+    <Content Include="styles\css\fonts\fontawesome-webfont.ttf" />
+    <Content Include="styles\css\fonts\fontawesome-webfont.woff" />
+    <Content Include="styles\css\fonts\fontawesome-webfont.woff2" />
+    <Content Include="styles\css\fonts\FontAwesome.otf" />
+    <Content Include="styles\css\fonts\ikanosans-bold-webfont.eot" />
+    <Content Include="styles\css\fonts\ikanosans-bold-webfont.ttf" />
+    <Content Include="styles\css\fonts\ikanosans-bold-webfont.woff" />
+    <Content Include="styles\css\fonts\ikanosans-bold-webfont.woff2" />
+    <Content Include="styles\css\fonts\ikanosans-light-webfont.eot" />
+    <Content Include="styles\css\fonts\ikanosans-light-webfont.ttf" />
+    <Content Include="styles\css\fonts\ikanosans-light-webfont.woff" />
+    <Content Include="styles\css\fonts\ikanosans-light-webfont.woff2" />
     <None Include="Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
