@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
 	<metadata>
-		<id>Habitat</id>
+		<id>ARMHackathon</id>
 		<version>1.0.0.0</version>
-		<title>Habitat Demo Site Package</title>
-		<authors>Sitecore CoE</authors>
-		<description>Habitat Demo CI CD Setup </description>
+		<title>ARMHackathon/title>
+		<authors>ARMHackathon</authors>
+		<description>ARMHackathon Package</description>
 	</metadata>
 	<files>
 		<file src="App_Config\**\*.config" target="App_Config" />
