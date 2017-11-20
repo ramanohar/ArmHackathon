@@ -197,6 +197,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.Depende
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "DependencyInjection", "{86FB273F-3637-45AF-825D-CFEFE1F7A8EA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Products", "Products", "{4743F360-2E19-44D4-861F-EAB24B30827E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Feature.Products", "src\Feature\Products\code\Sitecore.Feature.Products\Sitecore.Feature.Products\Sitecore.Feature.Products.csproj", "{2242EA5D-145F-441A-8C30-BF32D93AC56C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -606,6 +610,14 @@ Global
 		{366148B7-2392-4F42-80D6-786B7A3682AE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{366148B7-2392-4F42-80D6-786B7A3682AE}.Release|x64.ActiveCfg = Release|Any CPU
 		{366148B7-2392-4F42-80D6-786B7A3682AE}.Release|x64.Build.0 = Release|Any CPU
+		{2242EA5D-145F-441A-8C30-BF32D93AC56C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2242EA5D-145F-441A-8C30-BF32D93AC56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2242EA5D-145F-441A-8C30-BF32D93AC56C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2242EA5D-145F-441A-8C30-BF32D93AC56C}.Debug|x64.Build.0 = Debug|Any CPU
+		{2242EA5D-145F-441A-8C30-BF32D93AC56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2242EA5D-145F-441A-8C30-BF32D93AC56C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2242EA5D-145F-441A-8C30-BF32D93AC56C}.Release|x64.ActiveCfg = Release|Any CPU
+		{2242EA5D-145F-441A-8C30-BF32D93AC56C}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -697,5 +709,7 @@ Global
 		{7CC3D72B-4518-4B78-BE48-630A263C0F5B} = {1B850A0C-6B4F-4189-89F3-7A16E9592291}
 		{366148B7-2392-4F42-80D6-786B7A3682AE} = {86FB273F-3637-45AF-825D-CFEFE1F7A8EA}
 		{86FB273F-3637-45AF-825D-CFEFE1F7A8EA} = {D2CBE02E-6AA7-4343-9A01-891F971A17F5}
+		{4743F360-2E19-44D4-861F-EAB24B30827E} = {755F9E42-1707-4E1A-AE6D-3FD8A25118C0}
+		{2242EA5D-145F-441A-8C30-BF32D93AC56C} = {4743F360-2E19-44D4-861F-EAB24B30827E}
 	EndGlobalSection
 EndGlobal
