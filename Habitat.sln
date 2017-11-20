@@ -199,7 +199,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "Depe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Products", "Products", "{4743F360-2E19-44D4-861F-EAB24B30827E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Feature.Products", "src\Feature\Products\code\Sitecore.Feature.Products\Sitecore.Feature.Products\Sitecore.Feature.Products.csproj", "{2242EA5D-145F-441A-8C30-BF32D93AC56C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Feature.Products", "src\Feature\Products\code\Sitecore.Feature.Products.csproj", "{2242EA5D-145F-441A-8C30-BF32D93AC56C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
