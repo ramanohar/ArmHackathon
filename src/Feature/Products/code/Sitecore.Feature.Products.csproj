@@ -102,6 +102,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="packages.config" />
     <None Include="Web.config" />
     <None Include="Views\Web.config" />
   </ItemGroup>
