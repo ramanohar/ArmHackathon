@@ -1,0 +1,29 @@
+﻿---
+ID: "f392b7ce-aae4-40a2-8ccc-484e22f59048"
+Parent: "e267a622-5a1a-4121-8fe6-68031d80ac23"
+Template: "205e8ac1-d52f-433e-ad49-5c602a60df6b"
+Path: /sitecore/content/ARM/Home/Products/Security on Arm/TrustZone
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171121T105928Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "5e030ac9-ba35-44e1-a2cf-ff4c0f603ef7"
+      Hint: ShortDesc
+      Value: |
+        Arm TrustZone technology is a System on Chip (SoC) and CPU system-wide approach to security. TrustZone is hardware-based security built into SoCs by semiconductor chip designers who want to provide secure end points and a device root of trust. The family of TrustZone technologies can be integrated into any Arm Cortex-A and the latest Cortex-M23 and Cortex-M33 based systems, from the smallest of microcontrollers, with TrustZone for Cortex-M processors, to high-performance applications processors, with TrustZone technology for Cortex-A processors.
+        
+        At the heart of the TrustZone approach is the concept of secure and non-secure worlds that are hardware separated, with non-secure software blocked from accessing secure resources directly. Within the processor, software either resides in the secure world or the non-secure world; a switch between these two worlds is accomplished via software referred to as the secure monitor (Cortex-A) or by the core logic (Cortex-M). This concept of secure (trusted) and non-secure (non-trusted) worlds extends beyond the processor to encompass memory, software, bus transactions, interrupts and peripherals within an SoC.
+        An overview of TrustZone technology is presented on the diagram on the right: the two processor family profiles offer the same security concepts, but with a totally different implementation. TrustZone technology provides a foundation for system-wide security and the creation of a trusted platform. Any part of the system can be designed to be part of the secure world, including debug, peripherals, interrupts and memory. By creating a security subsystem, assets can be protected from software attacks and common hardware attacks.
+        
+    - ID: "77bd19f8-14f8-46b2-9996-21ea1aa7bf73"
+      Hint: Product Title
+      Value: TrustZone

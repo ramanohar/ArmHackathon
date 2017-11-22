@@ -1,0 +1,28 @@
+﻿---
+ID: "a80c39b6-a2e6-49bf-9d22-bf2984e2b746"
+Parent: "e267a622-5a1a-4121-8fe6-68031d80ac23"
+Template: "205e8ac1-d52f-433e-ad49-5c602a60df6b"
+Path: /sitecore/content/ARM/Home/Products/Security on Arm/Trustzone Protected HDCP
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171121T105928Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "5e030ac9-ba35-44e1-a2cf-ff4c0f603ef7"
+      Hint: ShortDesc
+      Value: |
+        Arm's HDCP 2.2 solution is carefully constructed to uphold the DCP's strict compliance and robustness requirements, while meeting the power and performance attributes of embedded environments.
+        Designed specifically for open environments based on Android or Windows Phone, Arm's HDCP 2.2 implementation is partitioned between the Trusted Execution Environment (TEE) and the Rich Execution Environment (REE). This unique architecture provides a runtime hardware isolation of sensitive modules from the vulnerable high-level operating system, thus maintaining the secrecy of the protocol's confidential keys and assets. Additionally, the Arm TrustZone protected HDCP 2.2 solution utilizes other platforms' available security peripherals, such as secure storage, cryptographic engines, secure boot and secure media pipeline, to provide end-to-end link protection.
+        Arm's HDCP 2.2 solution was designed by state-of-the-art security expertise. By utilizing Arm's seamless communications mechanism and HDCP interfaces, users are free to practice intuitive application development in REE user-space without compromising robustness requirements and avoiding any possible security breaches. It also handles key production-level use cases to ensure hassle-free deployment and fast time to market.
+        
+    - ID: "77bd19f8-14f8-46b2-9996-21ea1aa7bf73"
+      Hint: Product Title
+      Value: Trustzone Protected HDCP

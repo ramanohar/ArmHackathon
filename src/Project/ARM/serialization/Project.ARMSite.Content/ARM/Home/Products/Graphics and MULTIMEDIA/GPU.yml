@@ -1,0 +1,30 @@
+﻿---
+ID: "4e04dfa8-37d8-4fe0-8935-ed41db54bb40"
+Parent: "60dc7ee2-ff70-455b-9b13-b8756816555a"
+Template: "205e8ac1-d52f-433e-ad49-5c602a60df6b"
+Path: /sitecore/content/ARM/Home/Products/Graphics and MULTIMEDIA/GPU
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171121T105928Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "5e030ac9-ba35-44e1-a2cf-ff4c0f603ef7"
+      Hint: ShortDesc
+      Value: |
+        Mali GPU IP offers high performing, energy efficient graphics processing across a large and growing number of mobile and consumer devices, including entry-level mass market smartphones, visually stunning high-performance smartphones, Android™ OS-based tablets, SmartTVs and wearables.
+        Graphics processors:
+        Mali-G72
+        Mali-G51
+        Mali-470
+        
+    - ID: "77bd19f8-14f8-46b2-9996-21ea1aa7bf73"
+      Hint: Product Title
+      Value: GPU

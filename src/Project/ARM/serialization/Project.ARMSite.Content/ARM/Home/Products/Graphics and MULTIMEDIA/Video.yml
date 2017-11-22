@@ -1,0 +1,30 @@
+﻿---
+ID: "3fcf648f-8360-4eb2-827c-b6ee79559ffa"
+Parent: "60dc7ee2-ff70-455b-9b13-b8756816555a"
+Template: "205e8ac1-d52f-433e-ad49-5c602a60df6b"
+Path: /sitecore/content/ARM/Home/Products/Graphics and MULTIMEDIA/Video
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171121T105928Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "5e030ac9-ba35-44e1-a2cf-ff4c0f603ef7"
+      Hint: ShortDesc
+      Value: |
+        Mali Video processors provide advanced video technology combined with power-efficiency and one of the smallest chip sizes in the market to offer creators of mass market mobile devices support for a wide range of video technologies. Designed to scale from 1080p60 on a single core to 4k120 on the full eight cores, all variations offer stunning HD visual quality to end users.
+        Video processors:
+        Mali-V61
+        Mali-V550
+        Mali-V500
+        
+    - ID: "77bd19f8-14f8-46b2-9996-21ea1aa7bf73"
+      Hint: Product Title
+      Value: Video

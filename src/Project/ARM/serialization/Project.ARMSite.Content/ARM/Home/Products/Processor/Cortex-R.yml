@@ -1,0 +1,27 @@
+﻿---
+ID: "3faabca7-2055-4870-9b67-e9ffde3bd84d"
+Parent: "33f40520-3c91-42d5-8964-b3caacd8b375"
+Template: "205e8ac1-d52f-433e-ad49-5c602a60df6b"
+Path: "/sitecore/content/ARM/Home/Products/Processor/Cortex-R"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171121T105928Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "5e030ac9-ba35-44e1-a2cf-ff4c0f603ef7"
+      Hint: ShortDesc
+      Value: |
+        The Arm Cortex-R real-time processors offer high-performance computing solutions for embedded systems where reliability, high availability, fault tolerance and/or deterministic real-time responses are needed. Cortex-R processors are used in products where performance requirements and timing deadlines must always be met. In addition, Cortex-R processors are used in electronic systems which must be functionally safe to avoid hazardous situations, for example, in medical applications or autonomous systems.
+        For functional safety applications Arm offers the Cortex-R5, providing an area- and power-efficient solution, and the Cortex-R52, offering advanced integrated functional safety features and virtualization support. The Cortex-R7 and Cortex-R8 deliver very high performance and coherency to address the requirements of applications such as modems and storage.
+        
+    - ID: "77bd19f8-14f8-46b2-9996-21ea1aa7bf73"
+      Hint: Product Title
+      Value: "Cortex-R"

@@ -1,0 +1,28 @@
+﻿---
+ID: "03dbac24-6638-4c25-8926-cc9a6c19974c"
+Parent: "e267a622-5a1a-4121-8fe6-68031d80ac23"
+Template: "205e8ac1-d52f-433e-ad49-5c602a60df6b"
+Path: /sitecore/content/ARM/Home/Products/Security on Arm/TrustZone Security IP
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171121T105928Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "5e030ac9-ba35-44e1-a2cf-ff4c0f603ef7"
+      Hint: ShortDesc
+      Value: |
+        Arm provides a range of security subsystems (hardware and software) that provide platform level security as well as acceleration and offloading.
+        Arm TrustZone CryptoCell enables the protection of assets (code and data) belonging to different stakeholders in an ecosystem (e.g. silicon vendor, OEM, service provider, user). CryptoCell enables SoC designers to trade off area, power, performance or robustness in a very flexible manner so that SoC designs can be optimized to achieve the most appropriate security level for the target market. Integration of the CryptoCell package in the target design is simple and straightforward, using standard HW and SW interfaces.
+        The CryptoIsland family provides a fully isolated subsystem, providing a similar set of security services, with the addition of greater scope for programmability and reuse.
+        
+    - ID: "77bd19f8-14f8-46b2-9996-21ea1aa7bf73"
+      Hint: Product Title
+      Value: TrustZone Security IP
