@@ -1,0 +1,18 @@
+﻿---
+ID: "4272d8f8-499d-41c6-a60d-8541192883d3"
+Parent: "a10487d3-0493-43f3-8db5-cf3fd3965999"
+Template: "b7676719-8785-4b06-ad64-ecb7d402581f"
+Path: /sitecore/content/ARM/Global/ARM/ContactUs/ARMContact
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171121T125733Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

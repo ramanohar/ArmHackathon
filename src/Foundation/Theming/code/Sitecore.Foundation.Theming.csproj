@@ -63,12 +63,16 @@
     <Content Include="scripts\Sitecore.Foundation.Frameworks.min.js">
       <DependentUpon>Sitecore.Foundation.Frameworks.js</DependentUpon>
     </Content>
+    <Content Include="styles\css\bootstrap.min.css" />
     <Content Include="styles\css\font-awesome.css" />
     <Content Include="styles\css\fontface.css" />
     <Content Include="styles\css\fonts\fontawesome-webfont.svg" />
     <Content Include="styles\css\fonts\ikanosans-bold-webfont.svg" />
     <Content Include="styles\css\fonts\ikanosans-light-webfont.svg" />
+    <Content Include="styles\css\img\arm-chip.jpg" />
     <Content Include="styles\css\img\banner.jpg" />
+    <Content Include="styles\css\img\banner1.jpg" />
+    <Content Include="styles\css\img\banner2.jpg" />
     <Content Include="styles\css\index.css" />
     <Content Include="styles\default.css" />
     <Content Include="styles\default.min.css">
@@ -80,8 +84,11 @@
     </Content>
     <Content Include="styles\img\arm-logo-blue.svg" />
     <Content Include="styles\img\arm-logo.svg" />
-    <Content Include="styles\js\common.js" />
-    <Content Include="styles\js\jquery-1.12.4.min.js" />
+    <Content Include="styles\img\products.png" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\common.js" />
+    <Content Include="scripts\jquery-1.12.4.min.js" />
+    <Content Include="scripts\jquery-1.9.1.min.js" />
     <Content Include="styles\vendor.css" />
     <Content Include="styles\vendor.min.css">
       <DependentUpon>vendor.css</DependentUpon>
@@ -245,6 +252,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="images\" />
+    <Folder Include="styles\js\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\SitecoreExtensions\code\Sitecore.Foundation.SitecoreExtensions.csproj">

@@ -1,0 +1,19 @@
+﻿@using Sitecore.Feature.Navigation
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@foreach (Sitecore.Data.Items.Item itm in Model.PageItem.Children)
+{
+    <div class="row">
+        <a href="product-details.html">
+            <div class="col-lg-6 product-text">
+                <img src="img\processor.png" id="product-image">
+            </div>
+        </a>
+        <div class="col-lg-6 product-text">
+            <h3>@itm.Fields["product title"].Value</h3>
+            <span>@itm.Fields["shortdesc"].Value</span>
+            <a href="@Sitecore.Links.LinkManager.GetItemUrl(itm)"><div>Read more...</div></a>
+        </div>
+    </div>
+}

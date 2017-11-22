@@ -129,6 +129,7 @@
     <Content Include="Views\Navigation\_SecondaryMenuItems.cshtml" />
     <Content Include="Views\Navigation\LinkMenu.cshtml" />
     <Content Include="Views\Navigation\NavigationLinks.cshtml" />
+    <Content Include="Views\Navigation\ArmMenu.cshtml" />
     <None Include="Views\Web.config" />
     <Content Include="Views\Navigation\PrimaryMenu.cshtml" />
     <Content Include="Views\Navigation\SecondaryMenu.cshtml" />
@@ -185,4 +186,3 @@
   </Target>
   -->
 </Project>
-

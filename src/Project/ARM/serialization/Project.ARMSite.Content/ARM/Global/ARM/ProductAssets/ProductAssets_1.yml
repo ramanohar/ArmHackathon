@@ -1,0 +1,18 @@
+﻿---
+ID: "02d80a32-2086-448b-80b5-c9529e6307cd"
+Parent: "f849604d-aaa3-4604-86c1-883577ed4783"
+Template: "58ce648e-2fcb-4379-924d-2ad823fadb3a"
+Path: /sitecore/content/ARM/Global/ARM/ProductAssets/ProductAssets_1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171121T125804Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

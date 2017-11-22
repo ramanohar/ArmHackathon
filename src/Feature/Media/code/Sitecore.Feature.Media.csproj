@@ -122,6 +122,7 @@
     <Content Include="Views\MediaFeature\PageHeaderCarousel.cshtml" />
     <Content Include="packages.config" />
     <Content Include="Views\MediaFeature\Video.cshtml" />
+    <Content Include="Views\MediaFeature\ArmCarousel.cshtml" />
     <None Include="Web.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Web.Debug.config">
@@ -183,4 +184,3 @@
   </Target>
   -->
 </Project>
-

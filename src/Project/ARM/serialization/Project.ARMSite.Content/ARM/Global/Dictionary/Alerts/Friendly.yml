@@ -1,0 +1,14 @@
+﻿---
+ID: "e61a16e4-2463-4fe8-9b10-f2864c78043e"
+Parent: "3622dce4-8e0f-42f1-ae18-dcc0aead543d"
+Template: "98e4bdc6-9b43-4eb2-baa3-d4303c35852e"
+Path: /sitecore/content/ARM/Global/Dictionary/Alerts/Friendly
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160406T235534Z

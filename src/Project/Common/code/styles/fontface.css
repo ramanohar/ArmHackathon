@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'IkanoSansBold';
+    src: url('fonts/ikanosans-bold-webfont.eot');
+    src: url('fonts/ikanosans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/ikanosans-bold-webfont.woff2') format('woff2'),
+         url('fonts/ikanosans-bold-webfont.woff') format('woff'),
+         url('fonts/ikanosans-bold-webfont.ttf') format('truetype'),
+         url('fonts/ikanosans-bold-webfont.svg#ikano_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'IkanoSansLight';
+    src: url('fonts/ikanosans-light-webfont.eot');
+    src: url('fonts/ikanosans-light-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/ikanosans-light-webfont.woff2') format('woff2'),
+         url('fonts/ikanosans-light-webfont.woff') format('woff'),
+         url('fonts/ikanosans-light-webfont.ttf') format('truetype'),
+         url('fonts/ikanosans-light-webfont.svg#ikano_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

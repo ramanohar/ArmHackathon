@@ -1,0 +1,24 @@
+﻿---
+ID: "03dbac24-6638-4c25-8926-cc9a6c19974c"
+Parent: "e267a622-5a1a-4121-8fe6-68031d80ac23"
+Template: "205e8ac1-d52f-433e-ad49-5c602a60df6b"
+Path: /sitecore/content/ARM/Home/Products/IOT/C0124
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171121T105928Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "5e030ac9-ba35-44e1-a2cf-ff4c0f603ef7"
+      Hint: ShortDesc
+      Value: test test 4321
+    - ID: "77bd19f8-14f8-46b2-9996-21ea1aa7bf73"
+      Hint: Product Title
+      Value: C01234

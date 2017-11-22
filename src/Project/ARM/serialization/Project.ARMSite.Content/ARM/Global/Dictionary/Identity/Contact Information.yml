@@ -1,0 +1,14 @@
+﻿---
+ID: "6fc1a3eb-29e6-4c4f-8ebc-d2923258c3a1"
+Parent: "1405ea88-66da-4413-8427-a2ba9fe7fb31"
+Template: "98e4bdc6-9b43-4eb2-baa3-d4303c35852e"
+Path: /sitecore/content/ARM/Global/Dictionary/Identity/Contact Information
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160406T232644Z

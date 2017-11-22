@@ -1,0 +1,25 @@
+﻿---
+ID: "546d05ee-00e8-4130-8b64-e85b3a948ef0"
+Parent: "6db2eb29-2401-4190-a7e8-e1e9f326ecec"
+Template: "ac7394d5-2aa7-4fdb-a7d8-b1b87f9fa661"
+Path: /sitecore/content/ARM/Global/Links/GitHub
+DB: master
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160112T162757Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151210T040707Z

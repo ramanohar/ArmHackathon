@@ -1,0 +1,14 @@
+﻿---
+ID: "2826c694-b0f5-4806-872f-4fd0daded845"
+Parent: "1b1b76d3-648d-49f6-9f94-eac20140709a"
+Template: "98e4bdc6-9b43-4eb2-baa3-d4303c35852e"
+Path: /sitecore/content/ARM/Global/Dictionary/Demo/Onsite Behavior
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160406T232707Z

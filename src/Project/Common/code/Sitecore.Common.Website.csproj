@@ -150,6 +150,10 @@
     <Content Include="fonts\open-sans-v13-latin-800.svg" />
     <Content Include="fonts\open-sans-v13-latin-italic.svg" />
     <Content Include="fonts\open-sans-v13-latin-regular.svg" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\common.js" />
+    <Content Include="js\jquery-1.12.4.min.js" />
+    <Content Include="js\jquery-1.9.1.min.js" />
     <Content Include="packages.config" />
     <Content Include="compilerconfig.json" />
     <Content Include="compilerconfig.json.defaults">
@@ -205,12 +209,16 @@
     <Content Include="fonts\open-sans-v13-latin-regular.woff" />
     <Content Include="fonts\open-sans-v13-latin-regular.woff2" />
     <None Include="Properties\PublishProfiles\Habitat.pubxml" />
+    <Content Include="styles\bootstrap.min.css" />
     <Content Include="styles\dayfrost.css">
       <DependentUpon>dayfrost.scss</DependentUpon>
     </Content>
     <Content Include="styles\dayfrost.min.css">
       <DependentUpon>dayfrost.css</DependentUpon>
     </Content>
+    <Content Include="styles\font-awesome.css" />
+    <Content Include="styles\fontface.css" />
+    <Content Include="styles\index.css" />
     <Content Include="styles\niteflight.css">
       <DependentUpon>niteflight.scss</DependentUpon>
     </Content>

@@ -1,0 +1,36 @@
+﻿@using Sitecore.Feature.Navigation
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@model Sitecore.Feature.Navigation.Models.NavigationItems
+
+<div class="top-bar">
+    <div class="row">
+        <div class="column">
+            <div class="inner-bar">
+                <div class="logo">
+                    <a href="index.html" class="c-logo">
+                        <img id="logo" src="styles/css/img/arm-logo.svg" />
+                    </a>
+                </div>
+                <button class="search">
+                    <i class="fa fa-search"></i>
+                </button>
+                <input type="text" name="search" class="search hide">
+                <div class="item-container">
+                    <ul>
+                        @if (Model?.Items != null)
+                        {
+
+                            foreach (var item in Model.Items)
+                            {
+                               
+                                    <a href="@item.Url"> <li>@item.Item[Templates.Navigable.Fields.NavigationTitle]</li></a>
+                              
+                            }
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

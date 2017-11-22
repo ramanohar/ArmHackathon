@@ -1,0 +1,31 @@
+﻿---
+ID: "c7e2b3dd-f023-4c2f-a622-e53fc0b9de69"
+Parent: "fd73f7f0-7c6b-4954-a3c9-b481dcbe1a9f"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: /sitecore/content/ARM/Global/Teasers/Content/Example Divider
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151210T020806Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: "Examples:"
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170323T054701Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: "Examples:"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

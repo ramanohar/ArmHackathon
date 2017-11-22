@@ -2,59 +2,32 @@
 @using Sitecore.Foundation.Assets.Models
 @using Sitecore.Foundation.Assets.Services
 @using Sitecore.Foundation.SitecoreExtensions.Extensions
-@using Sitecore.Mvc.Analytics.Extensions
+
 @inherits WebViewPage
 @{
-  Layout = null;
+    Layout = null;
 }
 <!DOCTYPE html>
-<!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
-<!--[if !IE]><!-->
-<html lang="@Sitecore.Context.Language.CultureInfo.TwoLetterISOLanguageName">
-<!--<![endif]-->
+<html>
+<head>
+    <script type="text/javascript" src="/scripts/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="/scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/scripts/common.js"></script>
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="/styles/css/index.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/styles/css/bootstrap.min.css" />
 
-  <head>
-        <link rel="stylesheet" type="text/css" media="screen" href="styles/css/index.css" />
-    </head>
-    <body>
-        <header class="arm-header">
-            <div class="top-bar">
-                <div class="row">
-                    <div class="column">
-                        <div class="inner-bar">
-                            <div class="logo">
-                                <a href="index.html" class="c-logo">
-                                    <img id="logo" src="styles/img/arm-logo.svg" />
-                                </a>
-                            </div>
-                            <button class="search">
-                                <i class="fa fa-search"></i>
-                            </button>
-                            <div class="item-container">
-                                <ul>
-                                    <li>Products</li>
-                                    <li>Markets</li>
-                                    <li>Company</li>
-                                    <li>Develop</li>
-                                    <li>News</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="outer-container">
-                <div class="inner-container">
-                    <div class="banner-container">
-                        <div class="banner"></div>
-                        <div class="text-container">
-                            <div class="title">securing a trillion connected devices</div>
-                            <div class="title-bold">IoT security manifesto</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
+    <script>
+			  $('#carousel-example').carousel();
+    </script>
+</head>
+<body>
+    <header class="arm-header">
+      
+        @Html.Sitecore().Placeholder("Header")
+      
+    </header>
+    <div class="container">
         <main>
             <div class="main-content">
                 <h1>We Make Smart Possible</h1>
@@ -64,114 +37,115 @@
                 </p>
             </div>
         </main>
-        <footer class="arm-footer">
-            <div class="bottom-bar">
-                <div class="row">
-                    <div class="column">
-                        <div class="inner-bar">
-                            <div class="footer-list">
-                                <ul>
-                                    <li class="column-title">Products</li>
-                                    <li>Processors</li>
-                                    <li>Graphics and Multimedia</li>
-                                    <li>Development Tools</li>
-                                    <li>Custom SoCs</li>
-                                    <li>IoT Solutions</li>
-                                </ul>
-                                <ul>
-                                    <li class="column-title">Technologies</li>
-                                    <li>DynamIQ</li>
-                                    <li>big.LITTLE</li>
-                                    <li>Compute Library</li>
-                                    <li>Neon</li>
-                                    <li>Trust Zone</li>
-                                </ul>
-                                <ul>
-                                    <li class="column-title">Develop</li>
-                                    <li>Support</li>
-                                    <li>Developer</li>
-                                    <li>Community</li>
-                                    <li>Training</li>
-                                </ul>
-                                <ul>
-                                    <li class="column-title">About Arm</li>
-                                    <li>Leadership</li>
-                                    <li>Careers</li>
-                                    <li>Blogs</li>
-                                    <li>News</li>
-                                </ul>
-                                <ul>
-                                    <li class="column-title">Contact</li>
-                                    <li>Contact Us</li>
-                                    <li>Offline Locations</li>
-                                    <li>Product Enquiry</li>
-                                </ul>
+        @Html.Sitecore().Placeholder("PageContent")
+    </div>
+    <footer class="arm-footer">
+        <div class="bottom-bar">
+            <div class="row">
+                <div class="column">
+                    <div class="inner-bar">
+                        <div class="footer-list">
+                            <ul>
+                                <li class="column-title">Products</li>
+                                <li>Processors</li>
+                                <li>Graphics and Multimedia</li>
+                                <li>Development Tools</li>
+                                <li>Custom SoCs</li>
+                                <li>IoT Solutions</li>
+                            </ul>
+                            <ul>
+                                <li class="column-title">Technologies</li>
+                                <li>DynamIQ</li>
+                                <li>big.LITTLE</li>
+                                <li>Compute Library</li>
+                                <li>Neon</li>
+                                <li>Trust Zone</li>
+                            </ul>
+                            <ul>
+                                <li class="column-title">Develop</li>
+                                <li>Support</li>
+                                <li>Developer</li>
+                                <li>Community</li>
+                                <li>Training</li>
+                            </ul>
+                            <ul>
+                                <li class="column-title">About Arm</li>
+                                <li>Leadership</li>
+                                <li>Careers</li>
+                                <li>Blogs</li>
+                                <li>News</li>
+                            </ul>
+                            <ul>
+                                <li class="column-title">Contact</li>
+                                <li>Contact Us</li>
+                                <li>Offline Locations</li>
+                                <li>Product Enquiry</li>
+                            </ul>
+                        </div>
+                        <div class="media-container">
+                            <h3>Follow Us</h3>
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/Arm" target="_blank" title="">
+                                        <i class="fa fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://www.linkedin.com/company/Arm" target="_blank" title="">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://www.instagram.com/ArmCommunity" target="_blank" title="">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://www.twitter.com/Arm" target="_blank" title="">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/user/Armflix" target="_blank" title="">
+                                        <i class="fa fa-youtube-play"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="logo">
+                                <img src="img/arm-logo.svg" />
                             </div>
-                            <div class="media-container">
-                                <h3>Follow Us</h3>
-                                <ul>
-                                    <li>
-                                        <a href="https://www.facebook.com/Arm" target="_blank" title="">
-                                            <i class="fa fa-facebook-f"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="http://www.linkedin.com/company/Arm" target="_blank" title="">
-                                            <i class="fa fa-linkedin"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="http://www.instagram.com/ArmCommunity" target="_blank" title="">
-                                            <i class="fa fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="http://www.twitter.com/Arm" target="_blank" title="">
-                                            <i class="fa fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.youtube.com/user/Armflix" target="_blank" title="">
-                                            <i class="fa fa-youtube-play"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <div class="logo">
-                                    <img src="img/arm-logo.svg" />
-                                </div>
-                            </div>
-                            <hr />
-                            <div class="legal-container">
-                                <ul>
-                                    <li>
-                                        <a href="javascript:void(0);">Cookie Poilicy</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0);">Terms of Use</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0);">Privacy Poilicy</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0);">Accessibility</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0);">Subscription Center</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0);">Trademarks</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="copyright-container">
-                                <span>Copyright © 1995-2017 Arm Limited (or its affiliates). All rights reserved.</span>
-                            </div>
+                        </div>
+                        <hr />
+                        <div class="legal-container">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0);">Cookie Poilicy</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Terms of Use</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Privacy Poilicy</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Accessibility</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Subscription Center</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Trademarks</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="copyright-container">
+                            <span>Copyright © 1995-2017 Arm Limited (or its affiliates). All rights reserved.</span>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
-        <script type="text/javascript" src="styles/js/jquery-1.12.4.min.js"></script>
-        <script type="text/javascript" src="styles/js/common.js"></script>
-    </body> 
+        </div>
+    </footer>
+    
+</body>
 </html>

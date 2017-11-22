@@ -49,6 +49,15 @@
       return this.View(items);
     }
 
+
+        public ActionResult ArmMenu()
+        {
+            Sitecore.Data.Items.Item rootItem = Sitecore.Context.Database.GetItem(Sitecore.Context.Site.StartPath);
+            
+            
+            var items = this._navigationRepository.GetLinkMenuItems(rootItem);
+            return this.View(items);
+        }
     public ActionResult LinkMenu()
     {
       if (string.IsNullOrEmpty(RenderingContext.Current.Rendering.DataSource))

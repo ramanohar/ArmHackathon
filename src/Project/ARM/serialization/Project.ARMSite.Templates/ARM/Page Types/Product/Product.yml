@@ -1,0 +1,14 @@
+﻿---
+ID: "9a207dd8-bc83-4761-b238-3a980724297a"
+Parent: "205e8ac1-d52f-433e-ad49-5c602a60df6b"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/ARM/Page Types/Product/Product
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171121T122903Z

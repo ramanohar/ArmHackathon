@@ -1,0 +1,14 @@
+﻿---
+ID: "8fcbfe64-54b2-442f-b6ab-a5071e1ebc44"
+Parent: "5805f54e-7922-496e-83c3-bafc0128459d"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/ARM/Content Types/Support/Support
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171121T122215Z

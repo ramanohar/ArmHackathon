@@ -1,0 +1,21 @@
+﻿---
+ID: "58ce648e-2fcb-4379-924d-2ad823fadb3a"
+Parent: "ed0c05ff-be05-4001-b6c2-19f0511f18ed"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/ARM/Content Types/ProductAssets
+DB: master
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {3F3A9592-10A5-4888-8B7E-D661A64F7EF3}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171121T122500Z
