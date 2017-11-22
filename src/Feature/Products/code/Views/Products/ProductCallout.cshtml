@@ -1,0 +1,33 @@
+﻿@using Sitecore.Feature.Products;
+@using Sitecore.Foundation.SitecoreExtensions.Extensions;
+@using Sitecore.Mvc.Presentation;
+@model  Sitecore.Feature.Products.Models.ProductDetails
+
+@*<h3>@Html.Sitecore().Field(Template.ProductCallout.Fields.Title, Model.DataSource)</h3>
+<p>@Html.Raw(@Html.Sitecore().Field(Template.ProductCallout.Fields.Summary, Model.DataSource))</p>
+@Html.Sitecore().ImageField(Template.ProductCallout.Fields.Image, 0, 0, "svg")*@
+
+
+<div class="container">
+    <div class="row">
+    @foreach (var  product in Model.childItems)
+    {
+        <div class="col-lg-4 image-text">
+            <a href="products.html">
+                <img src="img\products.png" id="product-image">
+                @*@Html.Sitecore().ImageField(Template.ProductCallout.Fields.Image, 0, 0, "svg")*@
+                <p>@Html.Raw(@Html.Sitecore().Field(Template.ProductCallout.Fields.Title, product))</p>
+                <span>@Html.Raw(@Html.Sitecore().Field(Template.ProductCallout.Fields.Summary, product))</span>
+            </a>
+        </div>
+    }
+        <div class="col-lg-4 image-text">
+            <img src="img/products.png">
+            <p>Updates</p>
+        </div>
+        <div class="col-lg-4 image-text">
+            <img src="img\products.png" id="product-image">
+            <p>Downloads</p>
+        </div>
+    </div>
+</div>

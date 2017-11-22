@@ -181,13 +181,21 @@
     <Content Include="App_Config\Include\Feature\Habitat.Product.Serialization.config" />
     <Content Include="Views\ProductList.cshtml" />
     <Content Include="Views\ProductCategoryCallOut.cshtml" />
+    <Content Include="Views\Products\ProductCallout.cshtml" />
+    <Content Include="Views\Products\ProductDetail.cshtml" />
     <None Include="Web.config">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
+    <Compile Include="Controllers\ProductsController.cs" />
+    <Compile Include="Models\ProductDetails.cs" />
+    <Compile Include="Models\ProductList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\IProductRepository.cs" />
+    <Compile Include="Repositories\ProductRepository.cs" />
+    <Compile Include="Template.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Views\web.config" />
@@ -201,8 +209,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\foundation\SitecoreExtensions\code\Sitecore.Foundation.SitecoreExtensions.csproj">
